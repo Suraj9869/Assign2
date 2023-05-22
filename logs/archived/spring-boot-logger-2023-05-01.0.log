@@ -1,0 +1,39 @@
+2023-05-01 16:35:30,618 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 17:53:10,744 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 17:56:59,255 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 17:58:44,401 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 17:58:44,458 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 17:59:20,964 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 18:01:58,086 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-01 19:43:53,514 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-01 19:43:53,575 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplication using Java 17.0.4.1 with PID 18964 (C:\Softwares\ANZ Bank Client\Assignment2\assign\target\classes started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-01 19:43:53,576 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-01 19:43:54,334 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01 19:43:54,417 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2023-05-01 19:43:55,028 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9969 (http)
+2023-05-01 19:43:55,037 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9969"]
+2023-05-01 19:43:55,038 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-01 19:43:55,038 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-05-01 19:43:55,151 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-01 19:43:55,152 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1532 ms
+2023-05-01 19:43:55,297 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-01 19:43:55,369 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-01 19:43:55,648 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-01 19:43:55,866 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@20dd5870
+2023-05-01 19:43:55,868 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-01 19:43:55,915 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-01 19:43:56,882 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-01 19:43:56,892 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 19:43:57,352 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01 19:43:57,724 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ae07dbd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e7ddf8d, org.springframework.security.web.context.SecurityContextHolderFilter@769b1d1c, org.springframework.security.web.header.HeaderWriterFilter@22942eff, org.springframework.security.web.authentication.logout.LogoutFilter@38991781, com.hrm.assign.config.JwtAuthenticationFilter@5bfdc92b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f579582, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4769e70c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47f8374, org.springframework.security.web.session.SessionManagementFilter@202b5293, org.springframework.security.web.access.ExceptionTranslationFilter@5cfa9e8a, org.springframework.security.web.access.intercept.AuthorizationFilter@70ca8e72]
+2023-05-01 19:43:57,956 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9969"]
+2023-05-01 19:43:57,982 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9969 (http) with context path ''
+2023-05-01 19:43:57,990 INFO o.s.b.StartupInfoLogger [main] Started AssignApplication in 4.827 seconds (process running for 5.851)
+2023-05-01 19:44:50,779 INFO o.a.j.l.DirectJDKLog [http-nio-9969-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-01 19:44:50,779 INFO o.s.w.s.FrameworkServlet [http-nio-9969-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-01 19:44:50,780 INFO o.s.w.s.FrameworkServlet [http-nio-9969-exec-1] Completed initialization in 0 ms
+2023-05-01 19:44:50,793 ERROR c.h.a.c.JwtAuthenticationFilter [http-nio-9969-exec-1] JWT Token Authorization is not present
+2023-05-01 19:45:32,488 ERROR c.h.a.c.JwtAuthenticationFilter [http-nio-9969-exec-4] JWT Token Authorization is not present
+2023-05-01 19:45:44,891 ERROR c.h.a.c.JwtAuthenticationFilter [http-nio-9969-exec-6] JWT Token Authorization is not present
+2023-05-01 19:45:44,993 INFO c.h.a.h.SendEmailHelper [http-nio-9969-exec-6] Readed a OTP html content from a file
+2023-05-01 22:28:48,490 WARN c.z.h.p.HikariPool$HouseKeeper [EmployerManagement housekeeper] EmployerManagement - Thread starvation or clock leap detected (housekeeper delta=2h15m21s913ms39µs100ns).

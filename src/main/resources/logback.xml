@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	
+    <property name="LOGS" value="./logs" />
+
+    <appender name="Console"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1}): %msg%n%throwable
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="RollingFile"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/spring-boot-logger.log</file>
+        <encoder
+            class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1} [%t] %m%n</Pattern>
+        </encoder>
+
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            	
+            	<!-- Each Archived file, size is max 10MB  -->
+                <maxFileSize>10MB</maxFileSize>
+                
+                <!-- Total Size of all archive files if  total size > 20KB it will delete old archived files-->
+                <totalSizeCap>90MB</totalSizeCap>
+                
+                <!-- 60 days to keep -->
+                <maxHistory>60</maxHistory>
+                
+        </rollingPolicy>
+    </appender>
+    
+    <appender name="DebugRollingFile"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/spring-boot-debug-logger.log</file>
+        <encoder
+            class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1} [%t] %m%n</Pattern>
+        </encoder>
+
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/spring-boot-debug-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            	
+            	<!-- Each Archived file, size is max 10MB  -->
+                <maxFileSize>10MB</maxFileSize>
+                
+                <!-- Total Size of all archive files if  total size > 20KB it will delete old archived files-->
+                <totalSizeCap>90MB</totalSizeCap>
+                
+                <!-- 60 days to keep -->
+                <maxHistory>60</maxHistory>
+                
+        </rollingPolicy>
+    </appender>
+    
+    <logger name="com.hrm.assign" level="info" additivity="false">
+       	<appender-ref ref="RollingFile" />
+        <appender-ref ref="Console" />
+    </logger>
+    
+    <!-- LOG "com.hrm*" at DEBUG -->
+    <logger name="com.hrm.assign.controller" level="debug" additivity="false">
+    	<appender-ref ref="Console" />
+        <appender-ref ref="DebugRollingFile" />
+    </logger>
+
+	<root level="info">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="Console" />
+    </root>
+</configuration>

@@ -1,0 +1,2 @@
+2023-04-27 12:47:37,641 INFO c.h.a.c.AdminController [http-nio-9969-exec-2] Admin fetched the employee details
+2023-04-27 12:47:37,650 DEBUG c.h.a.c.AdminController [http-nio-9969-exec-2] Employee detials that admin has fetched is EmployeeDto [emailId=shyam@anzz.com, firstName=Shyam, lastName=Yadav, birthDate=2001-05-09 05:30:00.0, address=Pune, phoneNumber=9774747567] 

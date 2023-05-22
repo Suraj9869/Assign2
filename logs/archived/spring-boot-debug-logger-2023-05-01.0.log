@@ -1,0 +1,100 @@
+2023-05-01 15:37:36,881 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 15:37:36,901 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 15:37:36,903 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 15:39:34,335 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 15:39:34,340 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 15:39:34,340 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:00:16,811 INFO c.h.a.c.EmployeeController [main] Admin added employee in to the database
+2023-05-01 16:00:16,846 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 16:00:16,847 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 16:00:16,847 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:00:16,857 INFO c.h.a.c.EmployeeController [main] Employee updated his details in to the database
+2023-05-01 16:00:16,857 DEBUG c.h.a.c.EmployeeController [main] Employee Update his profile EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:03:58,528 INFO c.h.a.c.EmployeeController [main] Admin added employee in to the database
+2023-05-01 16:03:58,576 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 16:03:58,576 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 16:03:58,576 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:03:58,593 INFO c.h.a.c.EmployeeController [main] Employee successfully deleted his profile
+2023-05-01 16:03:58,593 DEBUG c.h.a.c.EmployeeController [main] Employee profile deleted from database pankaj@gmail.com
+2023-05-01 16:03:58,598 INFO c.h.a.c.EmployeeController [main] Employee updated his details in to the database
+2023-05-01 16:03:58,599 DEBUG c.h.a.c.EmployeeController [main] Employee Update his profile EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:15:42,871 INFO c.h.a.c.EmployeeController [main] Unable to delete the employee details
+2023-05-01 16:15:42,873 DEBUG c.h.a.c.EmployeeController [main] Unable to delete employee detials of pankaj@gmail.com
+2023-05-01 16:15:42,901 INFO c.h.a.c.EmployeeController [main] Admin added employee in to the database
+2023-05-01 16:15:42,905 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 16:15:42,906 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 16:15:42,907 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 16:15:42,917 INFO c.h.a.c.EmployeeController [main] Employee successfully deleted his profile
+2023-05-01 16:15:42,917 DEBUG c.h.a.c.EmployeeController [main] Employee profile deleted from database pankaj@gmail.com
+2023-05-01 16:15:42,921 INFO c.h.a.c.EmployeeController [main] Employee updated his details in to the database
+2023-05-01 16:15:42,921 DEBUG c.h.a.c.EmployeeController [main] Employee Update his profile EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 18:44:26,003 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:44:26,005 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:44:26,006 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:45:16,089 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:45:16,092 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:45:16,093 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:45:31,017 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:45:31,019 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:45:31,020 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:47:05,075 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:47:05,078 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:47:05,078 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:48:30,553 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:48:30,556 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:48:30,556 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:50:04,460 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:50:04,463 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:50:04,463 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:53:02,329 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:53:02,332 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:53:43,324 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:53:43,327 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:54:37,720 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:54:37,723 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:54:37,723 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 18:55:03,347 INFO c.h.a.c.EmployeeController [main] Unable to delete the employee details
+2023-05-01 18:55:03,350 DEBUG c.h.a.c.EmployeeController [main] Unable to delete employee detials of pankaj@gmail.com
+2023-05-01 18:55:03,374 INFO c.h.a.c.EmployeeController [main] Admin added employee in to the database
+2023-05-01 18:55:03,378 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-01 18:55:03,380 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-01 18:55:03,380 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 18:55:03,391 INFO c.h.a.c.EmployeeController [main] Employee successfully deleted his profile
+2023-05-01 18:55:03,392 DEBUG c.h.a.c.EmployeeController [main] Employee profile deleted from database pankaj@gmail.com
+2023-05-01 18:55:03,395 INFO c.h.a.c.EmployeeController [main] Employee updated his details in to the database
+2023-05-01 18:55:03,396 DEBUG c.h.a.c.EmployeeController [main] Employee Update his profile EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Sun Jun 09 00:00:00 IST 3901, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-01 18:55:50,611 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 18:55:50,613 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 18:55:50,614 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:10:42,338 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:10:42,341 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:10:42,342 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:24:23,611 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:24:23,613 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:24:23,614 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:25:47,260 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:25:47,264 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:25:47,265 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:29:27,765 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:29:27,768 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:29:27,769 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:32:21,628 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:32:21,631 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:32:21,631 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:36:59,150 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:36:59,152 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:36:59,153 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:41:59,933 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-01 19:41:59,936 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-01 19:41:59,937 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]
+2023-05-01 19:44:50,886 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-1] Admin requested for the token
+2023-05-01 19:44:51,096 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-1] Admin token generated.
+2023-05-01 19:45:15,773 INFO c.h.a.c.AdminController [http-nio-9969-exec-3] Admin got registered in to the database
+2023-05-01 19:45:32,492 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-4] Requested for the OTP
+2023-05-01 19:45:32,506 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-4] EmailId provided is not present in the database
+2023-05-01 19:45:44,894 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-6] Requested for the OTP
+2023-05-01 19:45:44,902 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-6] OTP generated
+2023-05-01 19:45:47,535 INFO c.h.a.c.AuthenticationController [http-nio-9969-exec-6] OTP sent successfully to the emailId
+2023-05-02 10:41:02,267 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-02 10:41:02,286 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-02 10:41:02,287 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials [FAILED toString()]

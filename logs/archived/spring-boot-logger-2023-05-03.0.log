@@ -1,0 +1,115 @@
+2023-05-03 10:43:59,473 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-03 10:43:59,769 ERROR c.h.a.e.ManagerException [main] ManagerException raised Manager not found in the database
+2023-05-03 10:44:01,018 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.hrm.assign.AssignApplicationTests]: AssignApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-03 10:44:01,376 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.hrm.assign.AssignApplication for test class com.hrm.assign.AssignApplicationTests
+2023-05-03 10:44:02,471 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-03 10:44:02,624 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplicationTests using Java 17.0.4.1 with PID 19944 (started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-03 10:44:02,626 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 10:44:04,576 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 10:44:04,791 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 183 ms. Found 4 JPA repository interfaces.
+2023-05-03 10:44:06,183 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 10:44:06,366 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03 10:44:07,150 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-03 10:44:07,838 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@4c68550d
+2023-05-03 10:44:07,846 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-03 10:44:07,966 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 10:44:10,681 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 10:44:10,712 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:44:11,809 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 10:44:12,783 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77c70f9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40d3f93d, org.springframework.security.web.context.SecurityContextHolderFilter@2d6ddf48, org.springframework.security.web.header.HeaderWriterFilter@453ccc85, org.springframework.security.web.authentication.logout.LogoutFilter@81a48a8, com.hrm.assign.config.JwtAuthenticationFilter@4f99b0ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2042a26f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32d2bb94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a8522cb, org.springframework.security.web.session.SessionManagementFilter@63309711, org.springframework.security.web.access.ExceptionTranslationFilter@1c5e759e, org.springframework.security.web.access.intercept.AuthorizationFilter@48fffb84]
+2023-05-03 10:44:13,566 INFO o.s.b.StartupInfoLogger [main] Started AssignApplicationTests in 11.682 seconds (process running for 19.799)
+2023-05-03 10:44:15,794 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:44:15,799 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown initiated...
+2023-05-03 10:44:15,822 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown completed.
+2023-05-03 10:47:06,159 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-03 10:47:06,378 ERROR c.h.a.e.ManagerException [main] ManagerException raised Manager not found in the database
+2023-05-03 10:47:07,484 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.hrm.assign.AssignApplicationTests]: AssignApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-03 10:47:07,823 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.hrm.assign.AssignApplication for test class com.hrm.assign.AssignApplicationTests
+2023-05-03 10:47:08,793 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-03 10:47:08,915 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplicationTests using Java 17.0.4.1 with PID 23172 (started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-03 10:47:08,918 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 10:47:10,736 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 10:47:10,915 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 146 ms. Found 4 JPA repository interfaces.
+2023-05-03 10:47:12,262 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 10:47:12,448 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03 10:47:13,061 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-03 10:47:13,616 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@7c638b27
+2023-05-03 10:47:13,621 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-03 10:47:13,753 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 10:47:16,346 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 10:47:16,380 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:47:17,500 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 10:47:18,490 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@172c9256, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d2ded, org.springframework.security.web.context.SecurityContextHolderFilter@37fec49c, org.springframework.security.web.header.HeaderWriterFilter@73c50bf, org.springframework.security.web.authentication.logout.LogoutFilter@2e122e9d, com.hrm.assign.config.JwtAuthenticationFilter@27684bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48d1a8b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b3fadda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1855b845, org.springframework.security.web.session.SessionManagementFilter@77c3507, org.springframework.security.web.access.ExceptionTranslationFilter@19c2a3bb, org.springframework.security.web.access.intercept.AuthorizationFilter@647e7305]
+2023-05-03 10:47:19,197 INFO o.s.b.StartupInfoLogger [main] Started AssignApplicationTests in 10.949 seconds (process running for 18.576)
+2023-05-03 10:47:21,315 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:47:21,320 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown initiated...
+2023-05-03 10:47:21,340 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown completed.
+2023-05-03 10:52:36,995 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-03 10:52:37,294 ERROR c.h.a.e.ManagerException [main] ManagerException raised Manager not found in the database
+2023-05-03 10:52:39,463 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.hrm.assign.AssignApplicationTests]: AssignApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-03 10:52:40,103 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.hrm.assign.AssignApplication for test class com.hrm.assign.AssignApplicationTests
+2023-05-03 10:52:41,924 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-03 10:52:42,096 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplicationTests using Java 17.0.4.1 with PID 18708 (started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-03 10:52:42,100 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 10:52:45,374 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 10:52:45,995 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 531 ms. Found 4 JPA repository interfaces.
+2023-05-03 10:52:48,215 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 10:52:48,416 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03 10:52:49,172 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-03 10:52:49,907 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@1f6fe574
+2023-05-03 10:52:49,913 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-03 10:52:50,049 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 10:52:52,759 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 10:52:52,804 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:52:53,924 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 10:52:55,004 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c0e7718, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5133176e, org.springframework.security.web.context.SecurityContextHolderFilter@de63894, org.springframework.security.web.header.HeaderWriterFilter@432d7578, org.springframework.security.web.authentication.logout.LogoutFilter@7a69f4e3, com.hrm.assign.config.JwtAuthenticationFilter@41a055e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a320414, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@888925d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aebab12, org.springframework.security.web.session.SessionManagementFilter@39b525a2, org.springframework.security.web.access.ExceptionTranslationFilter@70c969a7, org.springframework.security.web.access.intercept.AuthorizationFilter@3cea2750]
+2023-05-03 10:52:55,769 INFO o.s.b.StartupInfoLogger [main] Started AssignApplicationTests in 14.781 seconds (process running for 25.095)
+2023-05-03 10:52:58,172 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:52:58,177 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown initiated...
+2023-05-03 10:52:58,186 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown completed.
+2023-05-03 11:04:25,726 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-03 11:04:25,867 ERROR c.h.a.e.ManagerException [main] ManagerException raised Manager not found in the database
+2023-05-03 11:04:26,738 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.hrm.assign.AssignApplicationTests]: AssignApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-03 11:04:26,979 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.hrm.assign.AssignApplication for test class com.hrm.assign.AssignApplicationTests
+2023-05-03 11:04:27,735 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-03 11:04:27,821 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplicationTests using Java 17.0.4.1 with PID 5812 (started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-03 11:04:27,823 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 11:04:29,653 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 11:04:29,860 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 181 ms. Found 4 JPA repository interfaces.
+2023-05-03 11:04:31,233 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 11:04:31,390 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03 11:04:31,851 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-03 11:04:32,288 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@4e45fbd0
+2023-05-03 11:04:32,292 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-03 11:04:32,386 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 11:04:34,100 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 11:04:34,117 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 11:04:34,878 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 11:04:35,539 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3bd5dff5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6df605f, org.springframework.security.web.context.SecurityContextHolderFilter@3ed4c822, org.springframework.security.web.header.HeaderWriterFilter@7a791e8b, org.springframework.security.web.authentication.logout.LogoutFilter@3a8cc099, com.hrm.assign.config.JwtAuthenticationFilter@7fd3197b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65cb50dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fec6c2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68cc6fa4, org.springframework.security.web.session.SessionManagementFilter@2aadeb31, org.springframework.security.web.access.ExceptionTranslationFilter@4a10e65b, org.springframework.security.web.access.intercept.AuthorizationFilter@768967cf]
+2023-05-03 11:04:36,076 INFO o.s.b.StartupInfoLogger [main] Started AssignApplicationTests in 8.785 seconds (process running for 13.99)
+2023-05-03 11:04:36,374 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 11:04:36,378 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown initiated...
+2023-05-03 11:04:36,397 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown completed.
+2023-05-03 11:06:25,827 ERROR c.h.a.e.EmployeeException [main] EmployeeException raised Employee not found in the database
+2023-05-03 11:06:25,978 ERROR c.h.a.e.ManagerException [main] ManagerException raised Manager not found in the database
+2023-05-03 11:06:26,666 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.hrm.assign.AssignApplicationTests]: AssignApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-03 11:06:26,850 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.hrm.assign.AssignApplication for test class com.hrm.assign.AssignApplicationTests
+2023-05-03 11:06:27,412 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-03 11:06:27,479 INFO o.s.b.StartupInfoLogger [main] Starting AssignApplicationTests using Java 17.0.4.1 with PID 20020 (started by surajrya in C:\Softwares\ANZ Bank Client\Assignment2\assign)
+2023-05-03 11:06:27,482 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 11:06:28,728 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 11:06:28,857 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 114 ms. Found 4 JPA repository interfaces.
+2023-05-03 11:06:29,676 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 11:06:29,776 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-03 11:06:30,143 INFO c.z.h.HikariDataSource [main] EmployerManagement - Starting...
+2023-05-03 11:06:30,553 INFO c.z.h.p.HikariPool [main] EmployerManagement - Added connection org.postgresql.jdbc.PgConnection@2d3d4a54
+2023-05-03 11:06:30,557 INFO c.z.h.HikariDataSource [main] EmployerManagement - Start completed.
+2023-05-03 11:06:30,619 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 11:06:32,217 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 11:06:32,231 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 11:06:32,955 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 11:06:33,560 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@530aa75c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@593d0173, org.springframework.security.web.context.SecurityContextHolderFilter@6b6d8671, org.springframework.security.web.header.HeaderWriterFilter@194a653d, org.springframework.security.web.authentication.logout.LogoutFilter@3ed4c822, com.hrm.assign.config.JwtAuthenticationFilter@170937fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1226ba98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79194b1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a0a93ce, org.springframework.security.web.session.SessionManagementFilter@36b2b6e6, org.springframework.security.web.access.ExceptionTranslationFilter@8b727cb, org.springframework.security.web.access.intercept.AuthorizationFilter@15f3f9cf]
+2023-05-03 11:06:34,224 INFO o.s.b.StartupInfoLogger [main] Started AssignApplicationTests in 7.155 seconds (process running for 11.535)
+2023-05-03 11:06:34,569 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 11:06:34,578 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown initiated...
+2023-05-03 11:06:34,591 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] EmployerManagement - Shutdown completed.

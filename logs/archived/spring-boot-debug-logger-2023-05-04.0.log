@@ -1,0 +1,43 @@
+2023-05-04 14:38:18,056 INFO c.h.a.c.EmployeeController [main] Unable to delete the employee details
+2023-05-04 14:38:18,061 DEBUG c.h.a.c.EmployeeController [main] Unable to delete employee detials of pankaj@gmail.com
+2023-05-04 14:38:18,078 INFO c.h.a.c.EmployeeController [main] Admin added employee in to the database
+2023-05-04 14:38:18,085 INFO c.h.a.c.EmployeeController [main] Employee requested for his details
+2023-05-04 14:38:18,086 INFO c.h.a.c.EmployeeController [main] Employee got his details
+2023-05-04 14:38:18,087 DEBUG c.h.a.c.EmployeeController [main] Employee fetched his detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Wed May 09 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-04 14:38:18,103 INFO c.h.a.c.EmployeeController [main] Employee successfully deleted his profile
+2023-05-04 14:38:18,103 DEBUG c.h.a.c.EmployeeController [main] Employee profile deleted from database pankaj@gmail.com
+2023-05-04 14:38:18,107 INFO c.h.a.c.EmployeeController [main] Employee updated his details in to the database
+2023-05-04 14:38:18,107 DEBUG c.h.a.c.EmployeeController [main] Employee Update his profile EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Wed May 09 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-04 14:38:18,145 INFO c.h.a.c.AdminController [main] Admin random password created
+2023-05-04 14:38:18,147 INFO c.h.a.c.AdminController [main] Unable to send an email to an Admin
+2023-05-04 14:38:18,153 INFO c.h.a.c.AdminController [main] Admin fetched the employee details
+2023-05-04 14:38:18,153 DEBUG c.h.a.c.AdminController [main] Employee detials that admin has fetched is EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Wed Sep 05 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868] 
+2023-05-04 14:38:18,158 INFO c.h.a.c.AdminController [main] Admin added employee in to the database
+2023-05-04 14:38:18,158 DEBUG c.h.a.c.AdminController [main] Admin created employee detials EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Wed Sep 05 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-04 14:38:18,162 INFO c.h.a.c.AdminController [main] Admin got registered in to the database
+2023-05-04 14:38:18,167 INFO c.h.a.c.AdminController [main] Admin random password created
+2023-05-04 14:38:18,168 INFO c.h.a.c.AdminController [main] Successfully created Admin Profile
+2023-05-04 14:38:18,173 INFO c.h.a.c.AdminController [main] Admin details updated successfully
+2023-05-04 14:38:18,173 DEBUG c.h.a.c.AdminController [main] Written admin detials AdminDto [firstName=Suraj, lastName=Shayne, userName=admin@anzz.com]
+2023-05-04 14:38:18,176 INFO c.h.a.c.AdminController [main] Admin updated employee details
+2023-05-04 14:38:18,177 DEBUG c.h.a.c.AdminController [main] Updated employee detials: EmployeeDto [emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, birthDate=Wed Sep 05 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868]
+2023-05-04 14:38:18,182 INFO c.h.a.c.ManagerController [main] Manager got the details of employees working under him
+2023-05-04 14:38:18,183 DEBUG c.h.a.c.ManagerController [main] Manager fetched his employees detials [Employee(employeeId=1, emailId=pankaj@gmail.com, firstName=Pankaj, lastName=Patil, gender=Male, birthDate=Wed Sep 05 00:00:00 IST 2001, address=Pune Maharashtra, phoneNumber=9885385868, hireDate=Mon Aug 08 00:00:00 IST 2022, managerReports=Manager(managerId=1, emailId=shyam@gmail.com, fromDate=Sun Jan 01 00:00:00 IST 2023, toDate=Mon Jan 01 00:00:00 IST 2024))]
+2023-05-04 14:38:18,186 INFO c.h.a.c.ManagerController [main] Admin added manager details in to the database
+2023-05-04 14:38:18,189 INFO c.h.a.c.ManagerController [main] Manager updated his details in to the database
+2023-05-04 14:38:18,190 DEBUG c.h.a.c.ManagerController [main] Manager Updated his profile Manager(managerId=1, emailId=shyam@gmail.com, fromDate=Sun Jan 01 00:00:00 IST 2023, toDate=Thu May 09 00:00:00 IST 2024)
+2023-05-04 14:38:18,194 INFO c.h.a.c.ManagerController [main] Manager requested for his details
+2023-05-04 14:38:18,194 INFO c.h.a.c.ManagerController [main] Manager got his details
+2023-05-04 14:38:18,194 DEBUG c.h.a.c.ManagerController [main] Manager fetched his detials Manager(managerId=1, emailId=shyam@gmail.com, fromDate=Sun Jan 01 00:00:00 IST 2023, toDate=Thu May 09 00:00:00 IST 2024)
+2023-05-04 14:38:18,296 INFO c.h.a.c.AuthenticationController [main] Requested for the OTP
+2023-05-04 14:38:18,297 INFO c.h.a.c.AuthenticationController [main] OTP generated
+2023-05-04 14:38:18,298 INFO c.h.a.c.AuthenticationController [main] Unable to send an OTP to the emailId
+2023-05-04 14:38:18,308 INFO c.h.a.c.AuthenticationController [main] User requested for the token.
+2023-05-04 14:38:18,309 INFO c.h.a.c.AuthenticationController [main] Used detils validated
+2023-05-04 14:38:18,310 INFO c.h.a.c.AuthenticationController [main] Generated token for the user
+2023-05-04 14:38:18,311 INFO c.h.a.c.AuthenticationController [main] AuthRecord updated for the user
+2023-05-04 14:38:18,318 INFO c.h.a.c.AuthenticationController [main] Admin requested for the token
+2023-05-04 14:38:18,319 INFO c.h.a.c.AuthenticationController [main] Admin token generated.
+2023-05-04 14:38:18,325 INFO c.h.a.c.AuthenticationController [main] Requested for the OTP
+2023-05-04 14:38:18,326 INFO c.h.a.c.AuthenticationController [main] OTP generated
+2023-05-04 14:38:18,327 INFO c.h.a.c.AuthenticationController [main] OTP sent successfully to the emailId

@@ -1,0 +1,34 @@
+2023-05-13 09:24:21,277 WARN c.z.h.p.HikariPool$HouseKeeper [EmployerManagement housekeeper] EmployerManagement - Thread starvation or clock leap detected (housekeeper delta=11h22m33s229ms900µs).
+2023-05-13 10:33:15,877 WARN c.z.h.p.HikariPool$HouseKeeper [EmployerManagement housekeeper] EmployerManagement - Thread starvation or clock leap detected (housekeeper delta=32m53s573ms43µs600ns).
+2023-05-13 10:46:52,058 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(782)-127.0.0.1] Application shutdown requested.
+2023-05-13 10:46:52,237 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9969"]
+2023-05-13 10:46:52,240 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] Stopping service [Tomcat]
+2023-05-13 10:46:52,255 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-13 10:46:52,301 WARN o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] The web application [ROOT] appears to have started a thread named [EmployerManagement housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-05-13 10:46:52,305 WARN o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-05-13 10:46:52,345 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9969"]
+2023-05-13 10:46:52,363 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(782)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9969"]
+2023-05-13 10:46:52,396 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(782)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 10:46:52,463 INFO c.z.h.HikariDataSource [RMI TCP Connection(782)-127.0.0.1] EmployerManagement - Shutdown initiated...
+2023-05-13 10:46:52,497 INFO c.z.h.HikariDataSource [RMI TCP Connection(782)-127.0.0.1] EmployerManagement - Shutdown completed.
